@@ -1,18 +1,19 @@
-"""One Word for the Boss entry: writes a single line to entry.txt.
+"""Entry for 'One Word for the Boss' (make.fun).
 
-Stdlib only, deterministic, no network, no randomness.
+Writes a single word, 1 to 30 characters, to /output/entry.txt: the funniest,
+truest word describing the entrant's boss.
 """
 
 import os
 
-LINE = 'Visionary'
+ENTRY = "Unreachable"
 
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
     os.makedirs(out_dir, exist_ok=True)
     with open(os.path.join(out_dir, "entry.txt"), "w", encoding="utf-8") as f:
-        f.write(LINE + "\n")
+        f.write(ENTRY)
 
 
 if __name__ == "__main__":
