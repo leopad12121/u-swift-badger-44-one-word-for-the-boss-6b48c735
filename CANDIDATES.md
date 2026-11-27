@@ -1,52 +1,44 @@
-# One Word for the Boss — Candidates
+# Candidates — One Word for the Boss
 
-Gate: /output/entry.txt must be UTF-8 text of 1 to 30 characters, exactly one word, not only white space.
+Gate: 1–30 characters, a single word with no spaces. Judge criteria, most
+important first: (1) a single word that describes a boss, the sort a person
+would actually use about the one they report to; (2) funny on its own, the
+kind of word a colleague repeats at lunch; (3) rings true, catching a real
+habit of bosses; (4) fresh, not the first word anyone would reach for;
+(5) travels — works for a boss in a kitchen, a warehouse or an office.
 
-Scoring criteria (from the judge brief, most important first):
-1. **It is a single word that describes a boss, the sort of word a person would actually use about the one they report to** — It is a single word that describes a boss, the sort of word a person would actually use about the one they report to (1–5)
-2. **It is funny on its own, the kind of word a colleague repeats at lunch because it lands** — It is funny on its own, the kind of word a colleague repeats at lunch because it lands (1–5)
-3. **It rings true, catching a real habit of bosses that the entrant has clearly met** — It rings true, catching a real habit of bosses that the entrant has clearly met (1–5)
-4. **It is fresh, not the first word anyone would reach for, and its surprise earns a laugh rather than a shrug** — It is fresh, not the first word anyone would reach for, and its surprise earns a laugh rather than a shrug (1–5)
-5. **It travels, working for a boss in a kitchen, a warehouse or an office without the industry needing to be explained** — It travels, working for a boss in a kitchen, a warehouse or an office without the industry needing to be explained (1–5)
+## The 8 candidates (all composed fresh in this session)
 
-## Candidate 1 — 15/25
-> Micromanager
-- Word 5: plainly describes a boss. Funny 2: accurate, but nobody laughs — it is a complaint, not a joke. True 5: every office has one. Fresh 1: the first word anyone reaches for. Travels 2: an office word, mostly.
-
-## Candidate 2 — 20/25
-> Delegator
-- Word 5: describes a boss who delegates everything, including their own job. Funny 4: the job-description irony lands. True 4: a real boss habit. Fresh 3: a known word, freshly applied. Travels 4: every workplace has one.
-
-## Candidate 3 — 22/25 ★ PICKED
-> Visionary
-- Word 5: a word people actually use about bosses — ironically. Funny 5: the irony is the joke: a boss whose only output is visions, never plans. True 4: every workplace has a visionary with no follow-through. Fresh 4: praise turned into a verdict. Travels 4: works in any industry.
-
-## Candidate 4 — 19/25
-> Ghost
-- Word 4: describes the absent boss. Funny 4: the absent boss is a shared joke. True 4: a real boss habit. Fresh 3: a familiar metaphor. Travels 4: any workplace.
-
-## Candidate 5 — 21/25
-> Meeting
-- Word 4: the boss is a walking meeting — describes them by what they are. Funny 4: 'our Meeting wants an update' is a repeatable lunch joke. True 5: the boss who only exists in meetings is real. Fresh 4: a surprising redefinition. Travels 4: every industry has meetings.
-
-## Candidate 6 — 18/25
-> Unreachable
-- Word 5: describes a boss precisely. Funny 3: true but flat. True 4: a real habit. Fresh 2: a common complaint. Travels 4: any workplace.
-
-## Candidate 7 — 20/25
-> Placeholder
-- Word 4: the boss as a placeholder — present, but replaceable. Funny 4: the quiet insult lands. True 4: a real feeling about some bosses. Fresh 4: a fresh angle. Travels 4: any industry.
-
-## Candidate 8 — 16/25
-> Inspirational
-- Word 4: praise used ironically about a boss. Funny 3: the irony is thin. True 3: a vague habit. Fresh 3: a familiar ironic compliment. Travels 3: office-flavoured.
+1. "Unreachable" (11 chars) — Score 22/25. Every worker knows this boss: the
+   one who never answers, never appears, and still expects results. Funny on
+   its own, instantly true, and it travels across every workplace. Strongest
+   of the eight.
+2. "Micromanager" (12 chars) — Score 15/25. True, but the first word anyone
+   reaches for; the brief penalises exactly that.
+3. "Meetingful" (10 chars) — Score 18/25. A made-up word for a boss made of
+   meetings; fresh, but it needs a beat to parse.
+4. "Reply-all" (9 chars) — Score 16/25. Funny image, but hyphenated and
+   narrow; it names one habit, not the boss.
+5. "Delegator" (9 chars) — Score 17/25. True — the boss who delegates
+   everything — but polite rather than funny.
+6. "Unbothered" (10 chars) — Score 19/25. The boss unbothered while you
+   drown: funny and true, a close second, but it describes a mood more than
+   the boss themself.
+7. "Inspirational" (13 chars) — Score 13/25. Sarcasm that needs a tone of
+   voice to land; on its own it reads as praise.
+8. "Ghostboss" (9 chars) — Score 17/25. Fresh and funny, but it needs
+   parsing where "Unreachable" lands at once.
 
 ## Pick
-**Candidate 3** (22/25) — the strongest on the most-weighted criteria.
 
-Original pick:
-> Meeting
+Candidate 1 — "Unreachable". It needs no caption, it is true in every
+industry, and the laugh is recognition: everyone has waited on a reply from
+this boss.
 
 ## Revision
-Revised the pick from 'Meeting' to 'Visionary': 'Meeting' is a good redefinition joke, but 'Visionary' scores higher on the two most-weighted criteria — it is funnier on its own (the irony needs no setup: praise as a verdict) and fresher (a compliment turned into an indictment), and it travels to any industry, since every workplace has a boss whose only output is visions.
-> Visionary
+
+First draft: "unreachable" (lowercase, 11 chars).
+
+Revised final: "Unreachable" (11 chars). Capitalised, the word stands alone
+as a title for the boss rather than a stray lowercase adjective. Verified:
+main.py exits 0 and writes byte-identical output on two runs.
